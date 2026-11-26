@@ -1,0 +1,73 @@
+HOW TO EDIT YOUR PORTFOLIO
+
+WHERE TO FIND THINGS
+
+index.html      Home page, introduction, photo, and poster phrase
+about.html      About me, education, strengths, and milestones
+values.html     Values and principles, vision and mission
+work.html       Best works and personal works
+socials.html    Email, Signal, Discord, and GitHub links
+
+style.css       Original page colors, navbar, and grid background
+portfolio.css   Portfolio layout, text, social links, and mobile styles
+grid-warp.js    Cursor effect on the grid
+menu.js         Opens and closes the navbar on phones
+back-to-top.js  Shows the back-to-top button on longer pages
+assets/         Photos, the poster logo, and icons
+
+EDITING TEXT
+
+Open the HTML file for the page you want to change. Replace the words
+between the opening and closing tags, while keeping the tags themselves.
+Anything in [square brackets] is a placeholder for your own information.
+Save the file and refresh your browser to see the change.
+
+EDITING SOCIAL LINKS
+
+Open socials.html and find the platform you want to change. Each platform
+has an <a href="..."> link containing its icon and name. Change the address
+inside href to your new link. For email, keep mailto: before the address.
+The icon and platform name will both remain clickable.
+
+EDITING THE NAVBAR
+
+The navbar appears in each HTML file. To add, remove, or rename a link on
+every page, make the same change in each file. The aria-current="page"
+attribute marks the page you are currently on.
+
+On phones, menu.js opens and closes the links. The menu button and its
+icons are in each HTML file; their mobile styles are in portfolio.css.
+The scrollbar is hidden while the menu is open, but the page can still scroll.
+
+EDITING COLORS AND IMAGES
+
+The purple background and navbar colors are in style.css. The rest of the
+portfolio colors are in portfolio.css. The main cream color is #d1caa1.
+The icons in assets/ have their own fill color inside each SVG file.
+
+The home photo is assets/104.jpg. Replace it with another image using the
+same name, or update the image path in index.html.
+
+The Microsoft badge proof is assets/microsoft-word-badge-proof.png.
+To replace it, change the image file or its path in about.html.
+
+The music links and 3D art gallery are in work.html. The art images are
+assets/art-exosphere.jpg, assets/art-null.webp, and assets/art-abstract-blue.jpg.
+To change a link or image, update its address or file path in work.html.
+
+The strengths map is assets/strengths-map.pdf. Its image preview is
+assets/strengths-map-preview.png; update both files if you replace the map.
+
+The poster logo used in the navbar and home page is assets/poster-logo.svg.
+It contains a copy of your original poster. Changing poster-reference.png
+alone will not update the logo. To use a different logo, update the image
+path in each HTML file, including the large logo in index.html.
+
+The hand-drawn arrow on the about, values, and work pages is assets/hand-drawn-arrow.svg.
+You can change its size in the .portfolio-page-arrow rule in portfolio.css.
+
+EDITING THE GRID EFFECT
+
+Open grid-warp.js. The radius changes the size of the warped area, strength
+changes how much it bends, and followDelay changes how slowly it follows
+the cursor. Larger followDelay values make it follow more slowly.

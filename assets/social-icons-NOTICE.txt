@@ -1,0 +1,3 @@
+The Signal, Discord, and GitHub icons are from Simple Icons (https://simpleicons.org/).
+They are distributed under CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.
+The email icon is a Google Material Symbol; see material-symbols-LICENSE.txt.

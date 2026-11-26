@@ -1,0 +1,3 @@
+The material-*.svg files are derived from Google Material Symbols Outlined.
+The original font glyphs were converted into standalone SVG paths.
+They are licensed under Apache 2.0; see material-symbols-LICENSE.txt.

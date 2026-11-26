@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Values &amp; Goals | Justin Patulot</title>
+</head>
+<body>
+    <header id="top">
+        <a class="portfolio-logo" href="index.html" aria-label="Justin Patulot, home">
+            <img src="assets/poster-logo.svg" alt="" width="1170" height="280">
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="main-navigation" aria-expanded="false" hidden>
+            <img class="menu-open-icon" src="assets/material-menu.svg" alt="">
+            <img class="menu-close-icon" src="assets/material-close.svg" alt="">
+        </button>
+        <nav id="main-navigation" class="center portfolio-nav" aria-label="Main navigation">
+            <a href="index.html">home</a>
+            <a href="about.html">about me</a>
+            <a href="values.html" aria-current="page">values &amp; goals</a>
+            <a href="work.html">my work</a>
+            <a href="socials.html">my socials!</a>
+        </nav>
+    </header>
+
+    <main class="portfolio">
+
+        <div class="portfolio-page-heading portfolio-shell">
+            <p class="portfolio-kicker">PART A / QUALIFICATION PORTFOLIO</p>
+            <h1>values &amp; goals.</h1>
+            <p>What I believe in and what I hope to do.</p>
+            <img class="portfolio-page-arrow" src="assets/hand-drawn-arrow.svg" alt="">
+        </div>
+
+        <section class="portfolio-section portfolio-shell" id="values" aria-labelledby="values-heading">
+            <div class="portfolio-section-heading">
+                <p class="portfolio-kicker">05 /</p>
+                <h2 id="values-heading"><span>values &amp;<br>principles.</span></h2>
+            </div>
+            <div class="portfolio-section-content">
+                <p>I believe technology should help people and benefit society, not just the technology industry.</p>
+                <br>
+                <p>I also believe that freedom is what the world needed and the freedom to innovate.</p>
+            </div>
+        </section>
+
+        <section class="portfolio-section portfolio-shell" id="vision" aria-labelledby="vision-heading">
+            <div class="portfolio-section-heading">
+                <p class="portfolio-kicker">06 /</p>
+                <h2 id="vision-heading"><span>vision &amp;<br>mission.</span></h2>
+            </div>
+            <div class="portfolio-section-content portfolio-entries">
+                <article>
+                    <p class="portfolio-kicker">VISION</p>
+                    <p>Innovation and technology that benefit people and help make the world a better place with freedom of innovation at any cost.</p>
+                </article>
+                <article>
+                    <p class="portfolio-kicker">MISSION</p>
+                    <p>Keep learning as a web developer and work toward contributing to the open-source community.</p>
+                    <p>And get a job at a big company to also spread awareness how innovation should never harm the people.</p>
+                </article>
+            </div>
+        </section>
+
+        <footer class="portfolio-footer" id="contact" aria-label="Contact">
+            <div class="portfolio-shell">
+                <div>
+                    <p>justin patulot. / qualification portfolio</p>
+                    <p><a href="socials.html">my socials!</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <a class="portfolio-back-to-top" href="#top" aria-label="Back to top" hidden>
+            <img class="material-icon" src="assets/material-arrow-upward.svg" alt="">
+        </a>
+
+    </main>
+
+    <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute; pointer-events: none;">
+        <defs>
+            <filter id="grid-warp" x="0%" y="0%" width="100%" height="100%" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-color="#808000" result="neutral" />
+                <feImage id="grid-warp-map" x="-1000" y="-1000" width="1" height="1" preserveAspectRatio="none" result="local-warp" />
+                <feComposite in="local-warp" in2="neutral" operator="over" result="warp-map" />
+                <feDisplacementMap id="grid-warp-displacement" in="SourceGraphic" in2="warp-map" scale="0" xChannelSelector="R" yChannelSelector="G" />
+            </filter>
+        </defs>
+    </svg>
+    <script src="grid-warp.js"></script>
+    <script src="menu.js"></script>
+    <script src="back-to-top.js"></script>
+</body>
+</html>

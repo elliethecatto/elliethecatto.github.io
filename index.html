@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Home | Justin Patulot</title>
+</head>
+<body>
+    <header id="top">
+        <a class="portfolio-logo" href="index.html" aria-label="Justin Patulot, home">
+            <img src="assets/poster-logo.svg" alt="" width="1170" height="280">
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="main-navigation" aria-expanded="false" hidden>
+            <img class="menu-open-icon" src="assets/material-menu.svg" alt="">
+            <img class="menu-close-icon" src="assets/material-close.svg" alt="">
+        </button>
+        <nav id="main-navigation" class="center portfolio-nav" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">home</a>
+            <a href="about.html">about me</a>
+            <a href="values.html">values &amp; goals</a>
+            <a href="work.html">my work</a>
+            <a href="socials.html">my socials!</a>
+        </nav>
+    </header>
+
+    <main class="portfolio">
+        <section class="portfolio-hero portfolio-shell" id="home" aria-labelledby="hero-title">
+            <div class="portfolio-hero-copy">
+                <p class="portfolio-kicker">PART A / QUALIFICATION PORTFOLIO</p>
+                <h1 id="hero-title">
+                    <img class="portfolio-hero-logo" src="assets/poster-logo.svg" alt="Justin Patulot" width="1170" height="280">
+                </h1>
+                <p class="portfolio-full-name">Justin Benedict “Noelle” L. Patulot</p>
+                <p class="portfolio-introduction">
+                    I’m an aspiring web developer who wants to contribute to the open-source
+                    community and make the world a better place with innovation.
+                </p>
+                <a class="portfolio-start" href="about.html">
+                    about me
+                    <img class="material-icon" src="assets/material-arrow-downward.svg" alt="">
+                </a>
+            </div>
+
+            <div class="portfolio-portrait">
+                <img src="assets/104.jpg" alt="Portrait of Justin Patulot" width="600" height="600">
+            </div>
+        </section>
+
+        <div class="portfolio-manifesto portfolio-shell" aria-label="Innovation that benefits the world">
+            <span>innovation</span>
+            <span>that benefits</span>
+            <span>the world.</span>
+        </div>
+
+        <footer class="portfolio-footer" id="contact" aria-label="Contact">
+            <div class="portfolio-shell">
+                <div>
+                    <p>justin patulot. / qualification portfolio</p>
+                    <p><a href="socials.html">my socials!</a></p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute; pointer-events: none;">
+        <defs>
+            <filter id="grid-warp" x="0%" y="0%" width="100%" height="100%" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-color="#808000" result="neutral" />
+                <feImage id="grid-warp-map" x="-1000" y="-1000" width="1" height="1" preserveAspectRatio="none" result="local-warp" />
+                <feComposite in="local-warp" in2="neutral" operator="over" result="warp-map" />
+                <feDisplacementMap id="grid-warp-displacement" in="SourceGraphic" in2="warp-map" scale="0" xChannelSelector="R" yChannelSelector="G" />
+            </filter>
+        </defs>
+    </svg>
+    <script src="grid-warp.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
